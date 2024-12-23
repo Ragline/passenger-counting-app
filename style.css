@@ -1,0 +1,60 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+**/
+ body{
+    margin: 0  ;
+ max-width: 1000px;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bold;
+ }
+ .passenger-app{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    margin: 100px auto ;
+    align-items: center;
+    justify-content: center;
+     
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 10px;
+
+ }
+
+ button{
+    color:white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 20px auto 10px;
+    border: 0 0 2px black;
+ }
+
+ #increment-btn{
+   
+    background-color: red;
+}
+
+ #count-el{
+    font-size: 70px;
+    margin: 0 auto;
+ }
+
+ #save-btn{
+    background-color: green;
+    padding: 10px 43px;
+     
+
+ }
+
+ #save-el{
+    margin:30px auto 40px;
+ }
+
